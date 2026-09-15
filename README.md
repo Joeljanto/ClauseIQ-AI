@@ -1,10 +1,34 @@
 # ClauseIQ-AI
 
-An intelligent legal tech platform built to automate document parsing and analyze legal contract clauses with high-precision AI.
+ClauseIQ is an AI-powered contract analysis assistant that helps users understand PDF contracts by extracting the contract text and using AI to identify important information such as summaries, risks, obligations, and recommendations.
 
-## 🚀 Key Features
-* **AI-Powered Clause Analysis:** Uses advanced LLM pipelines to extract and parse specific clauses from complex legal documents.
-* **Structured Data Outputs:** Automatically formats raw text into clean, structured data for easy review.
+## Features
+
+- Upload PDF contracts
+- Extract text from PDF documents
+- Generate an AI-powered contract summary
+- Identify important risks and potential concerns
+- Extract obligations, deadlines, payments, and notice periods
+- Provide practical recommendations based only on the contract
+- Ask follow-up questions about the uploaded contract
+- Simple web-based interface
+
+## How It Works
+
+```text
+PDF Contract
+     ↓
+ClauseIQ Frontend
+     ↓
+FastAPI Backend
+     ↓
+PDF Text Extraction
+     ↓
+Gemini AI
+     ↓
+Contract Analysis
+     ↓
+Summary / Risks / Obligations / Recommendations
 
 ## 🤖 AI Stack & Architecture
 * **LLM Engine:** Google Gemini API (`google-generativeai`)
