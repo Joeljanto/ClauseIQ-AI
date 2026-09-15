@@ -15,29 +15,28 @@ ClauseIQ is an AI-powered contract analysis assistant that helps users understan
 
 ## How It Works
 
-
 PDF Contract
-     ↓
+     ->
 ClauseIQ Frontend
-     ↓
+     ->
 FastAPI Backend
-     ↓
+     ->
 PDF Text Extraction
-     ↓
+     ->
 Gemini AI
-     ↓
+     ->
 Contract Analysis
-     ↓
+     ->
 Summary / Risks / Obligations / Recommendations
 
-## 🤖 AI Stack & Architecture
+AI Stack & Architecture
 * **LLM Engine:** Google Gemini API (`google-generativeai`)
 * **Core Contribution (by @Joeljanto):** 
   * Handled the complete API orchestration, authentication, and model parameter tuning (temperature, top_p).
   * Engineered robust system instructions and custom prompt templates to handle legal context windows efficiently.
   * Designed structured JSON response structures to prevent model hallucinations during data extraction.
 
-## 🛠️ Built With
+Built With
 * Python
 * Google Gemini API
 * 
