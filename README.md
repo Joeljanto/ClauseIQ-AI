@@ -15,7 +15,7 @@ ClauseIQ is an AI-powered contract analysis assistant that helps users understan
 
 ## How It Works
 
-```text
+
 PDF Contract
      ↓
 ClauseIQ Frontend
